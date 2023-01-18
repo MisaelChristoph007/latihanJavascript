@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Booleans</h2>
+
+<p id="misael"></p>
+
+<script>
+let x = "misael";
+let y = "fajril";
+let z = "misael";
+
+document.getElementById("misael").innerHTML =
+(x == y) + "<br>" + (x == z);
+</script>
+
+</body>
+</html>
