@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+<h1>Object</h1>
+<p id="misael"></p>
+<script>
+    const orang = {
+        nama : "Misael",
+        umur : 15,
+        JK : "Laki Laki",
+        alamat : "Tanjungpura",
+    }
+    document.getElementById("misael").innerHTML =
+    "Nama saya adalah " + orang.nama + "<br>" +
+    "Umur saya " + orang.umur + "<br>" +
+    "Jenis kelamin saya " + orang.JK + "<br>" +
+    "Alamat rumah saya " + orang.alamat + "<br>"
+
+</script>
+</body>
+</html>
