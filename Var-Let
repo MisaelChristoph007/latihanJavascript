@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+         <h2><i>Misael Let</i></h2>
+
+         <p>Let Misael</p>
+
+         <p id="misael"></p>
+
+         <script>
+            var x = 4;
+        
+
+            var y = 2;
+        
+            document.getElementById("misael").innerHTML = x;
+         </script>
+    </body>
+</html>
