@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+         <h2><i>Misael Const</i></h2>
+
+         <p>Const Learn</p>
+
+         <p id="misael"></p>
+
+         <script>
+            // Create an Array:
+            const nama = ["Misael", "Fajril", "Akbar"];
+
+            // Change an element:
+            nama[0] = "Misael"
+
+            // Add an element:
+            nama.push("Rifa");
+
+            // Display the Array:
+            document.getElementById("misael").innerHTML = nama;
+         </script>
+    </body>
+</html>
