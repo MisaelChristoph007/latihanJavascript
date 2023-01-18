@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>Tentang saya</h2>
+
+        <p id="belajar"></p>
+
+        <script>
+        let x0 = "Saya Adalah"
+        let x1 = "Pemuda yang baik hati";
+        let x2 = "Rajin Menabung";
+        let x3 = "Tidak sombong";
+
+        document.getElementById("belajar").innerHTML =
+        x1 + "<br>" + x2 + "<br>" + x3;
+        
+        </script>
+    </body>
+</html>
